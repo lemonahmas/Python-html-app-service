@@ -3,4 +3,6 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "Hello, World!"
+    with open("./index.html","r") as f:
+        res = f.read()
+    return res
