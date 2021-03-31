@@ -7,7 +7,7 @@ products:
 - azure
 - azure-app-service
 ---
-## Test
+## Test build counter: 1
 
 # Python Flask sample for Azure App Service (Linux)
 
