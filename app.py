@@ -1,5 +1,6 @@
 from flask import Flask
 import pyodbc
+import scipy
 
 app = Flask(__name__)
 
